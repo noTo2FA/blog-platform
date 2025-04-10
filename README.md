@@ -1,24 +1,16 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+---
+### プロジェクトのセットアップ手順
+- userディレクトリの下にworkspace生成
+- Ruby インストール
+- Bundler インストール
+- Rails インストール
+- Import maps インストール
+- Tailwind CSS インストール
+- Rubocop インストール
+- RSpec インストール
+- devise インストール
+---
+### 実装した機能の説明
+- ユーザー登録及びログイン
+- 記事投稿
