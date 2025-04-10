@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get "home/top"
+  # get "posts/new"
+  # get "home/top"
   devise_for :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -13,4 +14,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  root "home#top"
+  resources :posts, only: [ :new, :create ]
 end
